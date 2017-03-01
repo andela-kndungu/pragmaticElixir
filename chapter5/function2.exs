@@ -5,3 +5,7 @@ function2 = fn
   (a, b, c) -> c
 end
 
+function3 = fn (n) ->
+  function2.(rem(n, 3), rem(n, 5), n)
+end
+
